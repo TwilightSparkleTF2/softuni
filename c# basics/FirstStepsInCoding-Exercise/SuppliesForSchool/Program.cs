@@ -1,0 +1,14 @@
+﻿double pens = double.Parse(Console.ReadLine());
+double markers = double.Parse(Console.ReadLine());
+double preparat = double.Parse(Console.ReadLine());
+double discount = double.Parse(Console.ReadLine());
+double pricePens = 5.80;
+double priceMarkers = 7.20;
+double pricePreparat = 1.20;
+double discountNum = discount / 100;
+double penPrice = pens * pricePens;
+double markersPrice = markers * priceMarkers;
+double preparatPrice = preparat * pricePreparat;
+double sum = penPrice + markersPrice + preparatPrice;
+double priceWithDiscount = sum - (sum * discountNum);
+Console.WriteLine(priceWithDiscount);

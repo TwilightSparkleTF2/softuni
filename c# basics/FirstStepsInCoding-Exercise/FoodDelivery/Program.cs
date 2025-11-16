@@ -1,0 +1,10 @@
+﻿double chickenMenu = 10.35;
+double fishMenu = 12.40;
+double vegiterianMenu = 8.15;
+double chicken = double.Parse(Console.ReadLine());
+double fish = double.Parse(Console.ReadLine());
+double vegiterian = double.Parse(Console.ReadLine());
+double sum = (chicken * chickenMenu) + (fish * fishMenu) + (vegiterian * vegiterianMenu);
+double sum1 = sum * 0.2;
+double sum3 = sum + sum1 + 2.50;
+Console.WriteLine(sum3);

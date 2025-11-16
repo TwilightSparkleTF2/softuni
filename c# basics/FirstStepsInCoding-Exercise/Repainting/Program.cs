@@ -1,0 +1,12 @@
+﻿double nailon = double.Parse(Console.ReadLine());
+double paint = double.Parse(Console.ReadLine());
+double razreditel = double.Parse(Console.ReadLine());
+double hours = double.Parse(Console.ReadLine());
+double nailonPrice = (nailon + 2) * 1.50;
+double paintPrice = (paint + 0.1 * paint) * 14.50;
+double razreditelPrice = razreditel * 5.00;
+double bagPrice = 0.40;
+double sum = nailonPrice + paintPrice + razreditelPrice + bagPrice;
+double sumForWorkers = (sum * 0.3) * hours;
+double finalSum = sum + sumForWorkers;
+Console.WriteLine(finalSum);
