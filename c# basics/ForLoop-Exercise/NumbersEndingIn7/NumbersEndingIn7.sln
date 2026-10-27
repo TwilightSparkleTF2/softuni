@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersEndingIn7", "NumbersEndingIn7\NumbersEndingIn7.csproj", "{F6327C7F-D207-4AD8-BAEB-E9C169438888}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6327C7F-D207-4AD8-BAEB-E9C169438888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6327C7F-D207-4AD8-BAEB-E9C169438888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6327C7F-D207-4AD8-BAEB-E9C169438888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6327C7F-D207-4AD8-BAEB-E9C169438888}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
